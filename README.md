@@ -38,8 +38,9 @@ This is a somewhat basic to intermediate project. Fell free to follow along.
 1. Determine and map out the folder/directory naming convention and files naming convention
 2. Start building your source files in yml file format in your models directory on a subfolder by subfolder basis i.e staging/customer, stageing/payment
 3. Determine the Data Modelling Methodology. Kimball Star Schema was adopted here with facts and dimension tables
-4.
-
+4. Work on the dbt project file to choose what dbt will materialize as view or table. Usually model files in mart are materialized as tables and staging as 
+   as views
+   
 ## Find some useful links below;
 
 1. dbt sign up link              - https://cloud.getdbt.com
