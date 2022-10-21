@@ -20,7 +20,7 @@ This is a somewhat basic to intermediate project. Fell free to follow along.
 8. Power BI: This is our Business Intelligence Layer to tell YML Fashion story in digestible form coming as insights.
 9. Metabase: This is our Open source Light Business Intelligence Layer. Will decide along the line which one to use
 
-## Steps
+## Installation and Config Steps
 
 1. Download and install Git and VS Code. These are faily easy to download with a simple google search
 2. Downlaod and Install Docker             -- Container and Hosting tool
@@ -33,6 +33,12 @@ This is a somewhat basic to intermediate project. Fell free to follow along.
 8. Free Sign up on dbt(1 Devloper seat) to have access to the sweet capabilities of dbt
 9. Create a blank repository on Github and connect dbt.
 
+## dbt Transformation and modelling steps
+
+1. Determine and map out the folder/directory naming convention and files naming convention
+2. Start building your source files in yml file format in your models directory on a subfolder by subfolder basis i.e staging/customer, stageing/payment
+3. Determine the Data Modelling Methodology. Kimball Star Schema was adopted here with facts and dimension tables
+4.
 
 ## Find some useful links below;
 
