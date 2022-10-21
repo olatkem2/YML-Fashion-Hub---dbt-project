@@ -1,0 +1,10 @@
+version: 2
+
+sources: 
+  - name: yml_customer
+    database: yml-fashion-hub
+    schema: yml_customer
+    tables:
+      - name: Customer
+      - name: Location
+      - name: Order
