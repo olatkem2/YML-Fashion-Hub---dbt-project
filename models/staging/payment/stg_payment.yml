@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_payment
+    description: Staged payment data from Yml fashion hub website.
+    columns:
+    - name: status
+      description: "{{  doc('payment_status')  }}"

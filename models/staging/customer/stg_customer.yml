@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: stg_customer
+    description: Staged customer data from Yml fashion hub website.
+    columns: 
+      - name: customer_id
+        description: The primary key for customers.
+        tests:
+          - unique
+          - not_null
+      - name: first_name
+        description: Customer first name.
+      - name: last_name
+        description: Customer last name.
+
+  - name: stg_orders
+    description: Staged order data from Yml fashion hub website.
+    columns:
+      - name: order_id
+        description: The primary key for orders.
+        tests:
+          - unique
+          - not_null
+      - name: status
+        description: "{{ doc('order_status') }}"
+        tests:
+          - accepted_values:
+              values:
+                - Completed
+                - Placed
+                - Returned
+      - name: customer_id
+        tests:
+          - relationships:
+              to: ref('stg_customer')
+              field: customer_id

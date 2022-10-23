@@ -40,6 +40,7 @@ This is a somewhat basic to intermediate project. Fell free to follow along.
 3. Determine the Data Modelling Methodology. Kimball Star Schema was adopted here with facts and dimension tables
 4. Work on the dbt project file to choose what dbt will materialize as view or table. Usually model files in mart are materialized as tables and staging as 
    as views
+5. create yml file for sub-folders in staging to cature documentation and the generic tests.
    
 ## Find some useful links below;
 
