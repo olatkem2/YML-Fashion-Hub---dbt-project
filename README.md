@@ -1,4 +1,4 @@
-"![yml Logo](iamge/YMl_Fashion_Hub_Modern_Data_Stack_Image.jpg)"
+"![yml Logo](iamge/YMl_Fashion_Hub_Modern_Data_Stack_Image.svg)"
 ## This Project will document the steps involved in building the Analytics Engneering Workflow of YML Fashion. 
 
 YML Fashion is a fashion company in the business of providing fashion designing services, textile sales and bespoke RTW Clothing collections.
